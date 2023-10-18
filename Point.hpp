@@ -1,8 +1,8 @@
 //
 //  Point.hpp
-//  CreateASphere
-//
-//  Created by MAC on 5/11/21.
+//  Create3DGraph
+//  
+//  Created by Jake Tran on 5/11/21.
 //
 
 #ifndef Point_hpp
