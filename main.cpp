@@ -158,7 +158,7 @@ int main()
     system ("pause");
     return 0;
 }
-
+// create truncated Cone
 void truncatedCone(float h, float r1, float r2, float X, float Y, float Z, int steps)
 {
     float x, y, z;
@@ -197,7 +197,7 @@ void truncatedCone(float h, float r1, float r2, float X, float Y, float Z, int s
         }
     }
 }
-
+// Create cylinder
 void cylinder(float h, float r, float X, float Y, float Z, int steps)
 {
     float x, y, z;
@@ -234,7 +234,7 @@ void cylinder(float h, float r, float X, float Y, float Z, int steps)
         }
     }
 }
-
+// Create cone
 void cone(float h, float r, float X, float Y, float Z, int steps)
 {
     float x, y, z;
@@ -271,7 +271,7 @@ void cone(float h, float r, float X, float Y, float Z, int steps)
         }
     }
 }
-
+// Create torus
 void torus(float r1, float r2, float X, float Y, float Z, int steps, int angle)
 {
     float x, y, z;
@@ -312,7 +312,7 @@ void torus(float r1, float r2, float X, float Y, float Z, int steps, int angle)
         }
     }
 }
-
+// Create sphere
 void sphere(float r, float X, float Y, float Z, int steps)
 {
     float x, y, z;
